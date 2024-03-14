@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #61DBFB;
+    border-radius: 50%;
+}
+
+.orbit {
+    position: absolute;
+    height: 500px;
+    width: 175px;
+    border: 25px solid #61DBFB;
+    border-radius: 50%;
+}
+
+.ring-1 {
+    transform: rotate(35deg);
+}
+
+.ring-2 {
+    transform: rotate(-35deg);
+}
+
+.ring-3 {
+    transform: rotate(90deg);
+}
